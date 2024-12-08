@@ -5,6 +5,7 @@ Scenario: varify login feature with valid details
 #Given user launch site url
 When user enter username and password
 Then validate succesfully
+Then validate unsuccesfully
 
 
 #@Reg
