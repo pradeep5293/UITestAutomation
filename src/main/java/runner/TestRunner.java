@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/main/java/features",
 		glue = { "stepDefinition","helper" },
 		tags = "@Reg", 
-		plugin = "html:target/targetReport/test.html"
+		plugin="json:target/jsonReports/test.json"
 		)
 
 public class TestRunner {
